@@ -1,0 +1,9 @@
+Analyse this repo
+
+Lets start with the basic questions. Where can fraud or config errors or some other bad events happen that might trigger velocity attacks?
+
+One you get enough idea on the project, what should I ideally do, to implement a production ready app from scratch
+
+In the repo we split them at a heads level with routing, payment_method and risk heads. But what if the issue is across dimensions? Like bin * entry mode * amount range and bin * mcc * acquirer ... How do we handle these cases? What would be a better way than to hardcode heads in the app like we did? Any way to historically determine the cross dimensions to monitor or some dynamic way?
+
+Use python-ish peseudo code + sql to demonstrate your ideas when explaining me a concept. 
